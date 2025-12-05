@@ -1,0 +1,6 @@
+add_executable(s05e01 s05e01.c)
+add_executable(s05e02 s05e02.c)
+add_executable(s05e03 s05e03.c)
+add_executable(s05e04 s05e04.c)
+add_executable(s05e05 s05e05.c)
+add_executable(s05e06 s05e06.c)

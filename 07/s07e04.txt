@@ -1,0 +1,8 @@
+| Nummer | Ausgabe              | Erklärung   										   |
+|--------|----------------------|------------------------------------------------------------------------------------------|
+|      1 |                    4 | p1 points to array[4]  ->  4 								   |
+|      2 |                   \0 | p2 points to array[10] -> \0 								   |
+|      3 |                    1 | address of array[0] is smaller than the address of array[10] -> 1 (true) 		   |
+|      4 |                    1 | address of array[2] is smaller than the address of array[6]  -> 1 (true) 	           |
+|      5 |                   0  | address of p1 shifted by 2*sizeof(int32_t) is not smaller than p2 anylonger -> 0 (false) |
+|      6 |                   10 | retrieves how many characters are in between the two pointer 				   |

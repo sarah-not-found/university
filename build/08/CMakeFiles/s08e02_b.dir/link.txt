@@ -1,0 +1,1 @@
+/usr/bin/gcc  -Wall -Wextra -Werror -Wpedantic -std=c18 -g -Wl,--dependency-file=CMakeFiles/s08e02_b.dir/link.d CMakeFiles/s08e02_b.dir/s08e02_b.c.o -o s08e02_b

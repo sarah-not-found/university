@@ -1,0 +1,12 @@
+1. 
+my_struct1: 4*float + 8*char + double    = 16 + 8 + 8 = 32 Bytes
+my_struct2: int32_t + double + float     =  4 + 8 + 4 = 16 Bytes
+my_struct3: int32_t + int64_t + uint16_t =  4 + 8 + 2 = 14 Bytes
+
+2.
+my_union1: 4*float || 8*char || double   = 16 || 8 || 8 -> 8 Bytes  
+my_union2: int32_t || double || float    =  4 || 8 || 4 -> 4 Bytes
+my_union3: int32_t || int64_t + int16_t  =  8 || 2      -> 2 Bytes
+
+3.
+node1->

@@ -1,0 +1,29 @@
+width = 8
+height = 14
+x = 7
+y = 1
+
+L
+S6
+L
+S5
+L
+S3
+R
+S1
+R
+S3
+L
+S5
+L
+S6
+R
+S1
+R
+S7
+R
+S13
+R
+S7
+R
+S1

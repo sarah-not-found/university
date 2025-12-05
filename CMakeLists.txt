@@ -1,0 +1,16 @@
+cmake_minimum_required(VERSION 3.10)
+project(EidP2025w C)
+
+set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -Wall -Wextra -Werror -Wpedantic -std=c18")
+
+add_subdirectory(01)
+add_subdirectory(02)
+add_subdirectory(03)
+add_subdirectory(04)
+add_subdirectory(05)
+add_subdirectory(06)
+add_subdirectory(07)
+add_subdirectory(08)
+add_subdirectory(09)
+add_subdirectory(10)
+add_subdirectory(11)

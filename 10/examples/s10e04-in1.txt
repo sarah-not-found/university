@@ -1,0 +1,4 @@
+width = 6
+height = 2
+x = 4
+y = 1

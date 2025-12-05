@@ -1,0 +1,32 @@
+1.
+struct struct1 {
+    unsigned short x;
+    float y;
+}
+
+2.
+struct struct2 {
+    unsigned x : 4;
+    int y : 2;
+}
+
+3.
+struct struct3 {
+    double x;
+    union {
+        int a;
+        float b;
+        double c;
+    }
+}
+
+4.
+struct node {
+    double value;
+    void* next = &node;
+}
+
+struct list {
+    int size;
+    void *head = &node;
+}

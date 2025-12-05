@@ -1,0 +1,332 @@
+[
+{
+  "directory": "/home/sarah/1_Einführung_in_die_Programmierung/ps-eidp-25w-main/build/01",
+  "command": "/usr/bin/gcc    -Wall -Wextra -Werror -Wpedantic -std=c18 -g -o CMakeFiles/s01e01.dir/s01e01.c.o -c /home/sarah/1_Einführung_in_die_Programmierung/ps-eidp-25w-main/01/s01e01.c",
+  "file": "/home/sarah/1_Einführung_in_die_Programmierung/ps-eidp-25w-main/01/s01e01.c",
+  "output": "01/CMakeFiles/s01e01.dir/s01e01.c.o"
+},
+{
+  "directory": "/home/sarah/1_Einführung_in_die_Programmierung/ps-eidp-25w-main/build/01",
+  "command": "/usr/bin/gcc    -Wall -Wextra -Werror -Wpedantic -std=c18 -g -o CMakeFiles/s01e02.dir/s01e02.c.o -c /home/sarah/1_Einführung_in_die_Programmierung/ps-eidp-25w-main/01/s01e02.c",
+  "file": "/home/sarah/1_Einführung_in_die_Programmierung/ps-eidp-25w-main/01/s01e02.c",
+  "output": "01/CMakeFiles/s01e02.dir/s01e02.c.o"
+},
+{
+  "directory": "/home/sarah/1_Einführung_in_die_Programmierung/ps-eidp-25w-main/build/01",
+  "command": "/usr/bin/gcc    -Wall -Wextra -Werror -Wpedantic -std=c18 -g -o CMakeFiles/s01e03.dir/s01e03.c.o -c /home/sarah/1_Einführung_in_die_Programmierung/ps-eidp-25w-main/01/s01e03.c",
+  "file": "/home/sarah/1_Einführung_in_die_Programmierung/ps-eidp-25w-main/01/s01e03.c",
+  "output": "01/CMakeFiles/s01e03.dir/s01e03.c.o"
+},
+{
+  "directory": "/home/sarah/1_Einführung_in_die_Programmierung/ps-eidp-25w-main/build/01",
+  "command": "/usr/bin/gcc    -Wall -Wextra -Werror -Wpedantic -std=c18 -g -o CMakeFiles/s01e04.dir/s01e04.c.o -c /home/sarah/1_Einführung_in_die_Programmierung/ps-eidp-25w-main/01/s01e04.c",
+  "file": "/home/sarah/1_Einführung_in_die_Programmierung/ps-eidp-25w-main/01/s01e04.c",
+  "output": "01/CMakeFiles/s01e04.dir/s01e04.c.o"
+},
+{
+  "directory": "/home/sarah/1_Einführung_in_die_Programmierung/ps-eidp-25w-main/build/01",
+  "command": "/usr/bin/gcc    -Wall -Wextra -Werror -Wpedantic -std=c18 -g -o CMakeFiles/s01e05.dir/s01e05.c.o -c /home/sarah/1_Einführung_in_die_Programmierung/ps-eidp-25w-main/01/s01e05.c",
+  "file": "/home/sarah/1_Einführung_in_die_Programmierung/ps-eidp-25w-main/01/s01e05.c",
+  "output": "01/CMakeFiles/s01e05.dir/s01e05.c.o"
+},
+{
+  "directory": "/home/sarah/1_Einführung_in_die_Programmierung/ps-eidp-25w-main/build/01",
+  "command": "/usr/bin/gcc    -Wall -Wextra -Werror -Wpedantic -std=c18 -g -o CMakeFiles/s01e06.dir/s01e06.c.o -c /home/sarah/1_Einführung_in_die_Programmierung/ps-eidp-25w-main/01/s01e06.c",
+  "file": "/home/sarah/1_Einführung_in_die_Programmierung/ps-eidp-25w-main/01/s01e06.c",
+  "output": "01/CMakeFiles/s01e06.dir/s01e06.c.o"
+},
+{
+  "directory": "/home/sarah/1_Einführung_in_die_Programmierung/ps-eidp-25w-main/build/02",
+  "command": "/usr/bin/gcc    -Wall -Wextra -Werror -Wpedantic -std=c18 -g -o CMakeFiles/s02e02_a.dir/s02e02_a.c.o -c /home/sarah/1_Einführung_in_die_Programmierung/ps-eidp-25w-main/02/s02e02_a.c",
+  "file": "/home/sarah/1_Einführung_in_die_Programmierung/ps-eidp-25w-main/02/s02e02_a.c",
+  "output": "02/CMakeFiles/s02e02_a.dir/s02e02_a.c.o"
+},
+{
+  "directory": "/home/sarah/1_Einführung_in_die_Programmierung/ps-eidp-25w-main/build/02",
+  "command": "/usr/bin/gcc    -Wall -Wextra -Werror -Wpedantic -std=c18 -g -o CMakeFiles/s02e02_b.dir/s02e02_b.c.o -c /home/sarah/1_Einführung_in_die_Programmierung/ps-eidp-25w-main/02/s02e02_b.c",
+  "file": "/home/sarah/1_Einführung_in_die_Programmierung/ps-eidp-25w-main/02/s02e02_b.c",
+  "output": "02/CMakeFiles/s02e02_b.dir/s02e02_b.c.o"
+},
+{
+  "directory": "/home/sarah/1_Einführung_in_die_Programmierung/ps-eidp-25w-main/build/02",
+  "command": "/usr/bin/gcc    -Wall -Wextra -Werror -Wpedantic -std=c18 -g -o CMakeFiles/s02e03.dir/s02e03.c.o -c /home/sarah/1_Einführung_in_die_Programmierung/ps-eidp-25w-main/02/s02e03.c",
+  "file": "/home/sarah/1_Einführung_in_die_Programmierung/ps-eidp-25w-main/02/s02e03.c",
+  "output": "02/CMakeFiles/s02e03.dir/s02e03.c.o"
+},
+{
+  "directory": "/home/sarah/1_Einführung_in_die_Programmierung/ps-eidp-25w-main/build/02",
+  "command": "/usr/bin/gcc    -Wall -Wextra -Werror -Wpedantic -std=c18 -g -o CMakeFiles/s02e04.dir/s02e04.c.o -c /home/sarah/1_Einführung_in_die_Programmierung/ps-eidp-25w-main/02/s02e04.c",
+  "file": "/home/sarah/1_Einführung_in_die_Programmierung/ps-eidp-25w-main/02/s02e04.c",
+  "output": "02/CMakeFiles/s02e04.dir/s02e04.c.o"
+},
+{
+  "directory": "/home/sarah/1_Einführung_in_die_Programmierung/ps-eidp-25w-main/build/02",
+  "command": "/usr/bin/gcc    -Wall -Wextra -Werror -Wpedantic -std=c18 -g -o CMakeFiles/s02e05.dir/s02e05.c.o -c /home/sarah/1_Einführung_in_die_Programmierung/ps-eidp-25w-main/02/s02e05.c",
+  "file": "/home/sarah/1_Einführung_in_die_Programmierung/ps-eidp-25w-main/02/s02e05.c",
+  "output": "02/CMakeFiles/s02e05.dir/s02e05.c.o"
+},
+{
+  "directory": "/home/sarah/1_Einführung_in_die_Programmierung/ps-eidp-25w-main/build/02",
+  "command": "/usr/bin/gcc    -Wall -Wextra -Werror -Wpedantic -std=c18 -g -o CMakeFiles/s02e06.dir/s02e06.c.o -c /home/sarah/1_Einführung_in_die_Programmierung/ps-eidp-25w-main/02/s02e06.c",
+  "file": "/home/sarah/1_Einführung_in_die_Programmierung/ps-eidp-25w-main/02/s02e06.c",
+  "output": "02/CMakeFiles/s02e06.dir/s02e06.c.o"
+},
+{
+  "directory": "/home/sarah/1_Einführung_in_die_Programmierung/ps-eidp-25w-main/build/03",
+  "command": "/usr/bin/gcc    -Wall -Wextra -Werror -Wpedantic -std=c18 -g -o CMakeFiles/s03e02.dir/s03e02.c.o -c /home/sarah/1_Einführung_in_die_Programmierung/ps-eidp-25w-main/03/s03e02.c",
+  "file": "/home/sarah/1_Einführung_in_die_Programmierung/ps-eidp-25w-main/03/s03e02.c",
+  "output": "03/CMakeFiles/s03e02.dir/s03e02.c.o"
+},
+{
+  "directory": "/home/sarah/1_Einführung_in_die_Programmierung/ps-eidp-25w-main/build/03",
+  "command": "/usr/bin/gcc    -Wall -Wextra -Werror -Wpedantic -std=c18 -g -o CMakeFiles/s03e03.dir/s03e03.c.o -c /home/sarah/1_Einführung_in_die_Programmierung/ps-eidp-25w-main/03/s03e03.c",
+  "file": "/home/sarah/1_Einführung_in_die_Programmierung/ps-eidp-25w-main/03/s03e03.c",
+  "output": "03/CMakeFiles/s03e03.dir/s03e03.c.o"
+},
+{
+  "directory": "/home/sarah/1_Einführung_in_die_Programmierung/ps-eidp-25w-main/build/03",
+  "command": "/usr/bin/gcc    -Wall -Wextra -Werror -Wpedantic -std=c18 -g -o CMakeFiles/s03e05.dir/s03e05.c.o -c /home/sarah/1_Einführung_in_die_Programmierung/ps-eidp-25w-main/03/s03e05.c",
+  "file": "/home/sarah/1_Einführung_in_die_Programmierung/ps-eidp-25w-main/03/s03e05.c",
+  "output": "03/CMakeFiles/s03e05.dir/s03e05.c.o"
+},
+{
+  "directory": "/home/sarah/1_Einführung_in_die_Programmierung/ps-eidp-25w-main/build/04",
+  "command": "/usr/bin/gcc    -Wall -Wextra -Werror -Wpedantic -std=c18 -g -o CMakeFiles/s04e02_a.dir/s04e02_a.c.o -c /home/sarah/1_Einführung_in_die_Programmierung/ps-eidp-25w-main/04/s04e02_a.c",
+  "file": "/home/sarah/1_Einführung_in_die_Programmierung/ps-eidp-25w-main/04/s04e02_a.c",
+  "output": "04/CMakeFiles/s04e02_a.dir/s04e02_a.c.o"
+},
+{
+  "directory": "/home/sarah/1_Einführung_in_die_Programmierung/ps-eidp-25w-main/build/04",
+  "command": "/usr/bin/gcc    -Wall -Wextra -Werror -Wpedantic -std=c18 -g -o CMakeFiles/s04e02_b.dir/s04e02_b.c.o -c /home/sarah/1_Einführung_in_die_Programmierung/ps-eidp-25w-main/04/s04e02_b.c",
+  "file": "/home/sarah/1_Einführung_in_die_Programmierung/ps-eidp-25w-main/04/s04e02_b.c",
+  "output": "04/CMakeFiles/s04e02_b.dir/s04e02_b.c.o"
+},
+{
+  "directory": "/home/sarah/1_Einführung_in_die_Programmierung/ps-eidp-25w-main/build/04",
+  "command": "/usr/bin/gcc    -Wall -Wextra -Werror -Wpedantic -std=c18 -g -o CMakeFiles/s04e02_c.dir/s04e02_c.c.o -c /home/sarah/1_Einführung_in_die_Programmierung/ps-eidp-25w-main/04/s04e02_c.c",
+  "file": "/home/sarah/1_Einführung_in_die_Programmierung/ps-eidp-25w-main/04/s04e02_c.c",
+  "output": "04/CMakeFiles/s04e02_c.dir/s04e02_c.c.o"
+},
+{
+  "directory": "/home/sarah/1_Einführung_in_die_Programmierung/ps-eidp-25w-main/build/04",
+  "command": "/usr/bin/gcc    -Wall -Wextra -Werror -Wpedantic -std=c18 -g -o CMakeFiles/s04e02_d.dir/s04e02_d.c.o -c /home/sarah/1_Einführung_in_die_Programmierung/ps-eidp-25w-main/04/s04e02_d.c",
+  "file": "/home/sarah/1_Einführung_in_die_Programmierung/ps-eidp-25w-main/04/s04e02_d.c",
+  "output": "04/CMakeFiles/s04e02_d.dir/s04e02_d.c.o"
+},
+{
+  "directory": "/home/sarah/1_Einführung_in_die_Programmierung/ps-eidp-25w-main/build/04",
+  "command": "/usr/bin/gcc    -Wall -Wextra -Werror -Wpedantic -std=c18 -g -o CMakeFiles/s04e03.dir/s04e03.c.o -c /home/sarah/1_Einführung_in_die_Programmierung/ps-eidp-25w-main/04/s04e03.c",
+  "file": "/home/sarah/1_Einführung_in_die_Programmierung/ps-eidp-25w-main/04/s04e03.c",
+  "output": "04/CMakeFiles/s04e03.dir/s04e03.c.o"
+},
+{
+  "directory": "/home/sarah/1_Einführung_in_die_Programmierung/ps-eidp-25w-main/build/04",
+  "command": "/usr/bin/gcc    -Wall -Wextra -Werror -Wpedantic -std=c18 -g -o CMakeFiles/s04e04.dir/s04e04.c.o -c /home/sarah/1_Einführung_in_die_Programmierung/ps-eidp-25w-main/04/s04e04.c",
+  "file": "/home/sarah/1_Einführung_in_die_Programmierung/ps-eidp-25w-main/04/s04e04.c",
+  "output": "04/CMakeFiles/s04e04.dir/s04e04.c.o"
+},
+{
+  "directory": "/home/sarah/1_Einführung_in_die_Programmierung/ps-eidp-25w-main/build/04",
+  "command": "/usr/bin/gcc    -Wall -Wextra -Werror -Wpedantic -std=c18 -g -o CMakeFiles/s04e05.dir/s04e05.c.o -c /home/sarah/1_Einführung_in_die_Programmierung/ps-eidp-25w-main/04/s04e05.c",
+  "file": "/home/sarah/1_Einführung_in_die_Programmierung/ps-eidp-25w-main/04/s04e05.c",
+  "output": "04/CMakeFiles/s04e05.dir/s04e05.c.o"
+},
+{
+  "directory": "/home/sarah/1_Einführung_in_die_Programmierung/ps-eidp-25w-main/build/05",
+  "command": "/usr/bin/gcc    -Wall -Wextra -Werror -Wpedantic -std=c18 -g -o CMakeFiles/s05e01.dir/s05e01.c.o -c /home/sarah/1_Einführung_in_die_Programmierung/ps-eidp-25w-main/05/s05e01.c",
+  "file": "/home/sarah/1_Einführung_in_die_Programmierung/ps-eidp-25w-main/05/s05e01.c",
+  "output": "05/CMakeFiles/s05e01.dir/s05e01.c.o"
+},
+{
+  "directory": "/home/sarah/1_Einführung_in_die_Programmierung/ps-eidp-25w-main/build/05",
+  "command": "/usr/bin/gcc    -Wall -Wextra -Werror -Wpedantic -std=c18 -g -o CMakeFiles/s05e02.dir/s05e02.c.o -c /home/sarah/1_Einführung_in_die_Programmierung/ps-eidp-25w-main/05/s05e02.c",
+  "file": "/home/sarah/1_Einführung_in_die_Programmierung/ps-eidp-25w-main/05/s05e02.c",
+  "output": "05/CMakeFiles/s05e02.dir/s05e02.c.o"
+},
+{
+  "directory": "/home/sarah/1_Einführung_in_die_Programmierung/ps-eidp-25w-main/build/05",
+  "command": "/usr/bin/gcc    -Wall -Wextra -Werror -Wpedantic -std=c18 -g -o CMakeFiles/s05e03.dir/s05e03.c.o -c /home/sarah/1_Einführung_in_die_Programmierung/ps-eidp-25w-main/05/s05e03.c",
+  "file": "/home/sarah/1_Einführung_in_die_Programmierung/ps-eidp-25w-main/05/s05e03.c",
+  "output": "05/CMakeFiles/s05e03.dir/s05e03.c.o"
+},
+{
+  "directory": "/home/sarah/1_Einführung_in_die_Programmierung/ps-eidp-25w-main/build/05",
+  "command": "/usr/bin/gcc    -Wall -Wextra -Werror -Wpedantic -std=c18 -g -o CMakeFiles/s05e04.dir/s05e04.c.o -c /home/sarah/1_Einführung_in_die_Programmierung/ps-eidp-25w-main/05/s05e04.c",
+  "file": "/home/sarah/1_Einführung_in_die_Programmierung/ps-eidp-25w-main/05/s05e04.c",
+  "output": "05/CMakeFiles/s05e04.dir/s05e04.c.o"
+},
+{
+  "directory": "/home/sarah/1_Einführung_in_die_Programmierung/ps-eidp-25w-main/build/05",
+  "command": "/usr/bin/gcc    -Wall -Wextra -Werror -Wpedantic -std=c18 -g -o CMakeFiles/s05e05.dir/s05e05.c.o -c /home/sarah/1_Einführung_in_die_Programmierung/ps-eidp-25w-main/05/s05e05.c",
+  "file": "/home/sarah/1_Einführung_in_die_Programmierung/ps-eidp-25w-main/05/s05e05.c",
+  "output": "05/CMakeFiles/s05e05.dir/s05e05.c.o"
+},
+{
+  "directory": "/home/sarah/1_Einführung_in_die_Programmierung/ps-eidp-25w-main/build/05",
+  "command": "/usr/bin/gcc    -Wall -Wextra -Werror -Wpedantic -std=c18 -g -o CMakeFiles/s05e06.dir/s05e06.c.o -c /home/sarah/1_Einführung_in_die_Programmierung/ps-eidp-25w-main/05/s05e06.c",
+  "file": "/home/sarah/1_Einführung_in_die_Programmierung/ps-eidp-25w-main/05/s05e06.c",
+  "output": "05/CMakeFiles/s05e06.dir/s05e06.c.o"
+},
+{
+  "directory": "/home/sarah/1_Einführung_in_die_Programmierung/ps-eidp-25w-main/build/06",
+  "command": "/usr/bin/gcc    -Wall -Wextra -Werror -Wpedantic -std=c18 -g -o CMakeFiles/s06e01.dir/s06e01.c.o -c /home/sarah/1_Einführung_in_die_Programmierung/ps-eidp-25w-main/06/s06e01.c",
+  "file": "/home/sarah/1_Einführung_in_die_Programmierung/ps-eidp-25w-main/06/s06e01.c",
+  "output": "06/CMakeFiles/s06e01.dir/s06e01.c.o"
+},
+{
+  "directory": "/home/sarah/1_Einführung_in_die_Programmierung/ps-eidp-25w-main/build/06",
+  "command": "/usr/bin/gcc    -Wall -Wextra -Werror -Wpedantic -std=c18 -g -o CMakeFiles/s06e02.dir/s06e02.c.o -c /home/sarah/1_Einführung_in_die_Programmierung/ps-eidp-25w-main/06/s06e02.c",
+  "file": "/home/sarah/1_Einführung_in_die_Programmierung/ps-eidp-25w-main/06/s06e02.c",
+  "output": "06/CMakeFiles/s06e02.dir/s06e02.c.o"
+},
+{
+  "directory": "/home/sarah/1_Einführung_in_die_Programmierung/ps-eidp-25w-main/build/06",
+  "command": "/usr/bin/gcc    -Wall -Wextra -Werror -Wpedantic -std=c18 -g -o CMakeFiles/s06e03.dir/s06e03.c.o -c /home/sarah/1_Einführung_in_die_Programmierung/ps-eidp-25w-main/06/s06e03.c",
+  "file": "/home/sarah/1_Einführung_in_die_Programmierung/ps-eidp-25w-main/06/s06e03.c",
+  "output": "06/CMakeFiles/s06e03.dir/s06e03.c.o"
+},
+{
+  "directory": "/home/sarah/1_Einführung_in_die_Programmierung/ps-eidp-25w-main/build/06",
+  "command": "/usr/bin/gcc    -Wall -Wextra -Werror -Wpedantic -std=c18 -g -o CMakeFiles/s06e04.dir/s06e04.c.o -c /home/sarah/1_Einführung_in_die_Programmierung/ps-eidp-25w-main/06/s06e04.c",
+  "file": "/home/sarah/1_Einführung_in_die_Programmierung/ps-eidp-25w-main/06/s06e04.c",
+  "output": "06/CMakeFiles/s06e04.dir/s06e04.c.o"
+},
+{
+  "directory": "/home/sarah/1_Einführung_in_die_Programmierung/ps-eidp-25w-main/build/06",
+  "command": "/usr/bin/gcc    -Wall -Wextra -Werror -Wpedantic -std=c18 -g -o CMakeFiles/s06e05.dir/s06e05.c.o -c /home/sarah/1_Einführung_in_die_Programmierung/ps-eidp-25w-main/06/s06e05.c",
+  "file": "/home/sarah/1_Einführung_in_die_Programmierung/ps-eidp-25w-main/06/s06e05.c",
+  "output": "06/CMakeFiles/s06e05.dir/s06e05.c.o"
+},
+{
+  "directory": "/home/sarah/1_Einführung_in_die_Programmierung/ps-eidp-25w-main/build/07",
+  "command": "/usr/bin/gcc    -Wall -Wextra -Werror -Wpedantic -std=c18 -g -o CMakeFiles/s07e01.dir/s07e01.c.o -c /home/sarah/1_Einführung_in_die_Programmierung/ps-eidp-25w-main/07/s07e01.c",
+  "file": "/home/sarah/1_Einführung_in_die_Programmierung/ps-eidp-25w-main/07/s07e01.c",
+  "output": "07/CMakeFiles/s07e01.dir/s07e01.c.o"
+},
+{
+  "directory": "/home/sarah/1_Einführung_in_die_Programmierung/ps-eidp-25w-main/build/07",
+  "command": "/usr/bin/gcc    -Wall -Wextra -Werror -Wpedantic -std=c18 -g -o CMakeFiles/s07e02.dir/s07e02.c.o -c /home/sarah/1_Einführung_in_die_Programmierung/ps-eidp-25w-main/07/s07e02.c",
+  "file": "/home/sarah/1_Einführung_in_die_Programmierung/ps-eidp-25w-main/07/s07e02.c",
+  "output": "07/CMakeFiles/s07e02.dir/s07e02.c.o"
+},
+{
+  "directory": "/home/sarah/1_Einführung_in_die_Programmierung/ps-eidp-25w-main/build/07",
+  "command": "/usr/bin/gcc    -Wall -Wextra -Werror -Wpedantic -std=c18 -g -o CMakeFiles/s07e03.dir/s07e03.c.o -c /home/sarah/1_Einführung_in_die_Programmierung/ps-eidp-25w-main/07/s07e03.c",
+  "file": "/home/sarah/1_Einführung_in_die_Programmierung/ps-eidp-25w-main/07/s07e03.c",
+  "output": "07/CMakeFiles/s07e03.dir/s07e03.c.o"
+},
+{
+  "directory": "/home/sarah/1_Einführung_in_die_Programmierung/ps-eidp-25w-main/build/07",
+  "command": "/usr/bin/gcc    -Wall -Wextra -Werror -Wpedantic -std=c18 -g -o CMakeFiles/s07e04.dir/s07e04.c.o -c /home/sarah/1_Einführung_in_die_Programmierung/ps-eidp-25w-main/07/s07e04.c",
+  "file": "/home/sarah/1_Einführung_in_die_Programmierung/ps-eidp-25w-main/07/s07e04.c",
+  "output": "07/CMakeFiles/s07e04.dir/s07e04.c.o"
+},
+{
+  "directory": "/home/sarah/1_Einführung_in_die_Programmierung/ps-eidp-25w-main/build/07",
+  "command": "/usr/bin/gcc    -Wall -Wextra -Werror -Wpedantic -std=c18 -g -o CMakeFiles/s07e06.dir/s07e06.c.o -c /home/sarah/1_Einführung_in_die_Programmierung/ps-eidp-25w-main/07/s07e06.c",
+  "file": "/home/sarah/1_Einführung_in_die_Programmierung/ps-eidp-25w-main/07/s07e06.c",
+  "output": "07/CMakeFiles/s07e06.dir/s07e06.c.o"
+},
+{
+  "directory": "/home/sarah/1_Einführung_in_die_Programmierung/ps-eidp-25w-main/build/08",
+  "command": "/usr/bin/gcc    -Wall -Wextra -Werror -Wpedantic -std=c18 -g -o CMakeFiles/s08e01.dir/s08e01.c.o -c /home/sarah/1_Einführung_in_die_Programmierung/ps-eidp-25w-main/08/s08e01.c",
+  "file": "/home/sarah/1_Einführung_in_die_Programmierung/ps-eidp-25w-main/08/s08e01.c",
+  "output": "08/CMakeFiles/s08e01.dir/s08e01.c.o"
+},
+{
+  "directory": "/home/sarah/1_Einführung_in_die_Programmierung/ps-eidp-25w-main/build/08",
+  "command": "/usr/bin/gcc    -Wall -Wextra -Werror -Wpedantic -std=c18 -g -o CMakeFiles/s08e02_b.dir/s08e02_b.c.o -c /home/sarah/1_Einführung_in_die_Programmierung/ps-eidp-25w-main/08/s08e02_b.c",
+  "file": "/home/sarah/1_Einführung_in_die_Programmierung/ps-eidp-25w-main/08/s08e02_b.c",
+  "output": "08/CMakeFiles/s08e02_b.dir/s08e02_b.c.o"
+},
+{
+  "directory": "/home/sarah/1_Einführung_in_die_Programmierung/ps-eidp-25w-main/build/08",
+  "command": "/usr/bin/gcc    -Wall -Wextra -Werror -Wpedantic -std=c18 -g -o CMakeFiles/s08e03.dir/s08e03.c.o -c /home/sarah/1_Einführung_in_die_Programmierung/ps-eidp-25w-main/08/s08e03.c",
+  "file": "/home/sarah/1_Einführung_in_die_Programmierung/ps-eidp-25w-main/08/s08e03.c",
+  "output": "08/CMakeFiles/s08e03.dir/s08e03.c.o"
+},
+{
+  "directory": "/home/sarah/1_Einführung_in_die_Programmierung/ps-eidp-25w-main/build/08",
+  "command": "/usr/bin/gcc    -Wall -Wextra -Werror -Wpedantic -std=c18 -g -o CMakeFiles/s08e04.dir/s08e04.c.o -c /home/sarah/1_Einführung_in_die_Programmierung/ps-eidp-25w-main/08/s08e04.c",
+  "file": "/home/sarah/1_Einführung_in_die_Programmierung/ps-eidp-25w-main/08/s08e04.c",
+  "output": "08/CMakeFiles/s08e04.dir/s08e04.c.o"
+},
+{
+  "directory": "/home/sarah/1_Einführung_in_die_Programmierung/ps-eidp-25w-main/build/08",
+  "command": "/usr/bin/gcc    -Wall -Wextra -Werror -Wpedantic -std=c18 -g -o CMakeFiles/s08e05.dir/s08e05.c.o -c /home/sarah/1_Einführung_in_die_Programmierung/ps-eidp-25w-main/08/s08e05.c",
+  "file": "/home/sarah/1_Einführung_in_die_Programmierung/ps-eidp-25w-main/08/s08e05.c",
+  "output": "08/CMakeFiles/s08e05.dir/s08e05.c.o"
+},
+{
+  "directory": "/home/sarah/1_Einführung_in_die_Programmierung/ps-eidp-25w-main/build/09",
+  "command": "/usr/bin/gcc    -Wall -Wextra -Werror -Wpedantic -std=c18 -g -o CMakeFiles/s09e02.dir/s09e02.c.o -c /home/sarah/1_Einführung_in_die_Programmierung/ps-eidp-25w-main/09/s09e02.c",
+  "file": "/home/sarah/1_Einführung_in_die_Programmierung/ps-eidp-25w-main/09/s09e02.c",
+  "output": "09/CMakeFiles/s09e02.dir/s09e02.c.o"
+},
+{
+  "directory": "/home/sarah/1_Einführung_in_die_Programmierung/ps-eidp-25w-main/build/09",
+  "command": "/usr/bin/gcc    -Wall -Wextra -Werror -Wpedantic -std=c18 -g -o CMakeFiles/s09e03.dir/s09e03.c.o -c /home/sarah/1_Einführung_in_die_Programmierung/ps-eidp-25w-main/09/s09e03.c",
+  "file": "/home/sarah/1_Einführung_in_die_Programmierung/ps-eidp-25w-main/09/s09e03.c",
+  "output": "09/CMakeFiles/s09e03.dir/s09e03.c.o"
+},
+{
+  "directory": "/home/sarah/1_Einführung_in_die_Programmierung/ps-eidp-25w-main/build/09",
+  "command": "/usr/bin/gcc    -Wall -Wextra -Werror -Wpedantic -std=c18 -g -o CMakeFiles/s09e04.dir/s09e04.c.o -c /home/sarah/1_Einführung_in_die_Programmierung/ps-eidp-25w-main/09/s09e04.c",
+  "file": "/home/sarah/1_Einführung_in_die_Programmierung/ps-eidp-25w-main/09/s09e04.c",
+  "output": "09/CMakeFiles/s09e04.dir/s09e04.c.o"
+},
+{
+  "directory": "/home/sarah/1_Einführung_in_die_Programmierung/ps-eidp-25w-main/build/09",
+  "command": "/usr/bin/gcc    -Wall -Wextra -Werror -Wpedantic -std=c18 -g -o CMakeFiles/s09e05.dir/s09e05.c.o -c /home/sarah/1_Einführung_in_die_Programmierung/ps-eidp-25w-main/09/s09e05.c",
+  "file": "/home/sarah/1_Einführung_in_die_Programmierung/ps-eidp-25w-main/09/s09e05.c",
+  "output": "09/CMakeFiles/s09e05.dir/s09e05.c.o"
+},
+{
+  "directory": "/home/sarah/1_Einführung_in_die_Programmierung/ps-eidp-25w-main/build/09",
+  "command": "/usr/bin/gcc    -Wall -Wextra -Werror -Wpedantic -std=c18 -g -o CMakeFiles/s09e05.dir/uint_list.c.o -c /home/sarah/1_Einführung_in_die_Programmierung/ps-eidp-25w-main/09/uint_list.c",
+  "file": "/home/sarah/1_Einführung_in_die_Programmierung/ps-eidp-25w-main/09/uint_list.c",
+  "output": "09/CMakeFiles/s09e05.dir/uint_list.c.o"
+},
+{
+  "directory": "/home/sarah/1_Einführung_in_die_Programmierung/ps-eidp-25w-main/build/09",
+  "command": "/usr/bin/gcc    -Wall -Wextra -Werror -Wpedantic -std=c18 -g -o CMakeFiles/s09e05.dir/uint_list_util.c.o -c /home/sarah/1_Einführung_in_die_Programmierung/ps-eidp-25w-main/09/uint_list_util.c",
+  "file": "/home/sarah/1_Einführung_in_die_Programmierung/ps-eidp-25w-main/09/uint_list_util.c",
+  "output": "09/CMakeFiles/s09e05.dir/uint_list_util.c.o"
+},
+{
+  "directory": "/home/sarah/1_Einführung_in_die_Programmierung/ps-eidp-25w-main/build/10",
+  "command": "/usr/bin/gcc    -Wall -Wextra -Werror -Wpedantic -std=c18 -g -o CMakeFiles/s10e01.dir/s10e01.c.o -c /home/sarah/1_Einführung_in_die_Programmierung/ps-eidp-25w-main/10/s10e01.c",
+  "file": "/home/sarah/1_Einführung_in_die_Programmierung/ps-eidp-25w-main/10/s10e01.c",
+  "output": "10/CMakeFiles/s10e01.dir/s10e01.c.o"
+},
+{
+  "directory": "/home/sarah/1_Einführung_in_die_Programmierung/ps-eidp-25w-main/build/10",
+  "command": "/usr/bin/gcc    -Wall -Wextra -Werror -Wpedantic -std=c18 -g -o CMakeFiles/s10e02.dir/s10e02.c.o -c /home/sarah/1_Einführung_in_die_Programmierung/ps-eidp-25w-main/10/s10e02.c",
+  "file": "/home/sarah/1_Einführung_in_die_Programmierung/ps-eidp-25w-main/10/s10e02.c",
+  "output": "10/CMakeFiles/s10e02.dir/s10e02.c.o"
+},
+{
+  "directory": "/home/sarah/1_Einführung_in_die_Programmierung/ps-eidp-25w-main/build/10",
+  "command": "/usr/bin/gcc    -Wall -Wextra -Werror -Wpedantic -std=c18 -g -o CMakeFiles/s10e03.dir/s10e03.c.o -c /home/sarah/1_Einführung_in_die_Programmierung/ps-eidp-25w-main/10/s10e03.c",
+  "file": "/home/sarah/1_Einführung_in_die_Programmierung/ps-eidp-25w-main/10/s10e03.c",
+  "output": "10/CMakeFiles/s10e03.dir/s10e03.c.o"
+},
+{
+  "directory": "/home/sarah/1_Einführung_in_die_Programmierung/ps-eidp-25w-main/build/10",
+  "command": "/usr/bin/gcc    -Wall -Wextra -Werror -Wpedantic -std=c18 -g -o CMakeFiles/s10e04.dir/s10e04.c.o -c /home/sarah/1_Einführung_in_die_Programmierung/ps-eidp-25w-main/10/s10e04.c",
+  "file": "/home/sarah/1_Einführung_in_die_Programmierung/ps-eidp-25w-main/10/s10e04.c",
+  "output": "10/CMakeFiles/s10e04.dir/s10e04.c.o"
+},
+{
+  "directory": "/home/sarah/1_Einführung_in_die_Programmierung/ps-eidp-25w-main/build/11",
+  "command": "/usr/bin/gcc    -Wall -Wextra -Werror -Wpedantic -std=c18 -g -o CMakeFiles/s11e01.dir/s11e01.c.o -c /home/sarah/1_Einführung_in_die_Programmierung/ps-eidp-25w-main/11/s11e01.c",
+  "file": "/home/sarah/1_Einführung_in_die_Programmierung/ps-eidp-25w-main/11/s11e01.c",
+  "output": "11/CMakeFiles/s11e01.dir/s11e01.c.o"
+},
+{
+  "directory": "/home/sarah/1_Einführung_in_die_Programmierung/ps-eidp-25w-main/build/11",
+  "command": "/usr/bin/gcc    -Wall -Wextra -Werror -Wpedantic -std=c18 -g -o CMakeFiles/s11e01.dir/my_list.c.o -c /home/sarah/1_Einführung_in_die_Programmierung/ps-eidp-25w-main/11/my_list.c",
+  "file": "/home/sarah/1_Einführung_in_die_Programmierung/ps-eidp-25w-main/11/my_list.c",
+  "output": "11/CMakeFiles/s11e01.dir/my_list.c.o"
+}
+]

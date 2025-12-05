@@ -1,0 +1,36 @@
+width = 22
+height = 7
+x = 0
+y = 4
+
+S2
+R
+S15
+L
+S2
+R
+S2
+R
+S1
+L
+S1
+R
+S1
+L
+S1
+R
+S2
+R
+S1
+L
+S1
+R
+S1
+L
+S1
+R
+S2
+R
+S2
+L
+S14

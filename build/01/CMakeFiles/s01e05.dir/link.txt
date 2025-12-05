@@ -1,0 +1,1 @@
+/usr/bin/gcc  -Wall -Wextra -Werror -Wpedantic -std=c18 -g -Wl,--dependency-file=CMakeFiles/s01e05.dir/link.d CMakeFiles/s01e05.dir/s01e05.c.o -o s01e05

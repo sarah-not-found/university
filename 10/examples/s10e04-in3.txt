@@ -1,0 +1,27 @@
+width = 21
+height = 11
+x = 20
+y = 0
+
+L
+S20
+L
+S10
+L
+S20
+L
+S8
+L
+S18
+L
+S6
+L
+S16
+L
+S4
+L
+S14
+L
+S2
+L
+S12

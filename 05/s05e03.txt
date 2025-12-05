@@ -1,0 +1,11 @@
+|          |               Zeile              |        Dezimalwert der Variable        |
+| Variable |-----------|----------------------|-------------------|--------------------|
+|          | Zuweisung | Variablendeklaration | vor der Zuweisung | nach der Zuweisung |
+|----------|-----------|----------------------|-------------------|--------------------|
+| a        | 6         | global               |    nicht existent |         unbestimmt |
+| a        | 8         | lokal (main)         |   nicht definiert |                  1 |
+| a        | 10        | lokal (main)         |   nicht definiert |                  2 |
+| a        | 13        | lokal (main)         |   nicht definiert |    nicht definiert |
+| a        | 16        | lokal (main)         |                 3 |                  5 |
+| a        | 18        | lokal (main)         |                 5 |                  6 |
+| a        | 20        | lokal (main)         |                 2 |                  7 |

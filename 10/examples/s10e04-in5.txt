@@ -1,0 +1,24 @@
+width = 81
+height = 18
+x = 40
+y = 10
+
+S7
+R
+S6
+R
+S6
+R
+S2
+R
+S4
+L
+S2
+L
+S10
+L
+S15
+L
+S14
+L
+S55

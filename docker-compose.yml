@@ -1,0 +1,16 @@
+---
+# docker-compose run --rm gdb
+version: '3.4'
+services:
+  gdb:
+    build: .
+    image: gdb
+    security_opt:
+      - seccomp:unconfined
+    cap_add:
+      - SYS_PTRACE
+    stdin_open: true
+    tty: true
+    volumes:
+      - './:/eidp'
+    working_dir: '/eidp'
