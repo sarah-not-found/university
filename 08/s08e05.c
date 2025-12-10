@@ -22,93 +22,102 @@ void print_grid(char grid[ROWS][COLS]) {
     }
 }
 
-int is_valid(const point_t point, char grid[ROWS][COLS]) {
-    //Checks if a point is valid according to our rules
-    if (point.row < 0 || point.row >= ROWS || point.col < 0 || point.col >= COLS) {
-        return 0;
-    }
-
-    if (grid[point.row][point.col] != FREE_SYMBOL &&
-        grid[point.row][point.col] != START_SYMBOL &&
-        grid[point.row][point.col] != END_SYMBOL) {
+int is_valid(const int row, const int col) {
+    if (row < 0 || row >= ROWS || col < 0 || col >= COLS) {
         return 0;
     }
     return 1;
 }
+int is_free(const int row, const int col, char grid[ROWS][COLS]) {
+    if (grid[row][col] == FREE_SYMBOL) {
+        return 1;
+    }
+    return 0;
+}
 
-int find_path_recursive(point_t end, point_t next, char grid[ROWS][COLS]) {
+int find_path_recursive(point_t next, const point_t end, char grid[ROWS][COLS]) {
+    //end the recursion, once our point <next> is the same as <end>
     if (next.row == end.row && next.col == end.col) {
-        return 1; // reached the end
+        return 1;
     }
 
-    const int moves[4][2] = {{1,0},{0,1},{-1,0},{0,-1}};
-
-    for (int i = 0; i < 4; i++) {
-        point_t next_step = {next.row + moves[i][0], next.col + moves[i][1]};
-
-        if (is_valid(next_step, grid)) {
-            // Mark as visited temporarily
-            if (grid[next_step.row][next_step.col] != START_SYMBOL &&
-                grid[next_step.row][next_step.col] != END_SYMBOL) {
-                grid[next_step.row][next_step.col] = PATH_SYMBOL;
-                }
-
-            if (find_path_recursive(end, next_step, grid)) {
-                return 1; // path confirmed
+    if (is_valid(next.row+1, next.col)) {
+        if (is_free(next.row+1, next.col, grid)) {
+            next.row += 1;
+            if (find_path_recursive(next, end, grid)) {
+                grid[next.row][next.col] = PATH_SYMBOL;
+                return 1;
             }
-
-            // Backtrack: unmark
-            if (grid[next_step.row][next_step.col] == PATH_SYMBOL) {
-                grid[next_step.row][next_step.col] = FREE_SYMBOL;
-            }
+        } else {
+            next.row -= 1;
         }
     }
 
-    return 0; // no path found
+    if (is_valid(next.row, next.col+1)) {
+        next.col += 1;
+        if (is_free(next.row, next.col, grid)) {
+            if (find_path_recursive(next, end, grid)) {
+                grid[next.row][next.col] = PATH_SYMBOL;
+                return 1;
+            }
+        } else {
+            next.col -= 1;
+        }
+    }
+
+    if (is_valid(next.row-1, next.col)) {
+        next.row -= 1;
+        if (is_free(next.row, next.col, grid)) {
+            if (find_path_recursive(next, end, grid)) {
+                grid[next.row][next.col] = PATH_SYMBOL;
+                return 1;
+            }
+        } else {
+            next.row += 1;
+        }
+    }
+
+    if (is_valid(next.row, next.col-1)) {
+        next.col -= 1;
+        if (is_free(next.row, next.col, grid)) {
+            if (find_path_recursive(next, end, grid)) {
+                grid[next.row][next.col] = PATH_SYMBOL;
+                return 1;
+            }
+        } else {
+            next.col += 1;
+        }
+    }
+    return 0;
 }
 
-int find_path(char grid[ROWS][COLS]) {
-    point_t start = {.row = ROWS + 1, .col = COLS + 1};
-    point_t end = {.row = ROWS + 1, .col = COLS + 1};
 
-    // Find start
-    int found_start = 0;
+int find_path(char grid[ROWS][COLS]) {
+    point_t start = {5,5};
+    //Find the start-point
     for (int r = 0; r < ROWS; r++) {
-        for (int c = 0; c < COLS - 1; c++) {
+        for (int c = 0; c < COLS; c++) {
             if (grid[r][c] == START_SYMBOL) {
                 start.row = r;
                 start.col = c;
-                found_start = 1;
-                break;
             }
         }
     }
 
-    if (!found_start) {
-        printf("No start point 'S' found");
-        return 0;
-    }
-
-    // Find end
-    int found_end = 0;
+    point_t end = {7,7};
+    //Find end-point
     for (int r = 0; r < ROWS; r++) {
-        for (int c = 0; c < COLS - 1; c++) {
+        for (int c = 0; c < COLS; c++) {
             if (grid[r][c] == END_SYMBOL) {
                 end.row = r;
                 end.col = c;
-                found_end = 1;
-                break;
             }
         }
     }
 
-    if (!found_end) {
-        printf("No end point 'E' found");
-        return 0;
-    }
-
-    return find_path_recursive(end, start, grid);
+    return find_path_recursive(start, end, grid);
 }
+
 
 int main(void) {
     char grid[ROWS][COLS] = {
