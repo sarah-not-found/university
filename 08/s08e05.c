@@ -36,33 +36,35 @@ int is_valid(const point_t point, char grid[ROWS][COLS]) {
     return 1;
 }
 
-int find_path_recursive(point_t end, point_t next, char grid[ROWS][COLS],
-                        point_t steps[ROWS * COLS], size_t step) {
-    steps[step] = next;
-
+int find_path_recursive(point_t end, point_t next, char grid[ROWS][COLS]) {
     if (next.row == end.row && next.col == end.col) {
-        return 1;
+        return 1; // reached the end
     }
 
-    for (size_t i = 0; i < 4; i++) {
-        const int valid_moves[4][2] = {
-            {1, 0}, {0, 1}, {-1, 0}, {0, -1}
-        };
-        const point_t next_step = {
-            .row = next.row + valid_moves[i][0],
-            .col = next.col + valid_moves[i][1]
-        };
+    const int moves[4][2] = {{1,0},{0,1},{-1,0},{0,-1}};
 
-        if (find_path_recursive(end, next_step, grid, steps, step + 1)) {
+    for (int i = 0; i < 4; i++) {
+        point_t next_step = {next.row + moves[i][0], next.col + moves[i][1]};
+
+        if (is_valid(next_step, grid)) {
+            // Mark as visited temporarily
             if (grid[next_step.row][next_step.col] != START_SYMBOL &&
                 grid[next_step.row][next_step.col] != END_SYMBOL) {
                 grid[next_step.row][next_step.col] = PATH_SYMBOL;
                 }
-            return 1;
+
+            if (find_path_recursive(end, next_step, grid)) {
+                return 1; // path confirmed
+            }
+
+            // Backtrack: unmark
+            if (grid[next_step.row][next_step.col] == PATH_SYMBOL) {
+                grid[next_step.row][next_step.col] = FREE_SYMBOL;
+            }
         }
     }
 
-    return 0;
+    return 0; // no path found
 }
 
 int find_path(char grid[ROWS][COLS]) {
@@ -105,10 +107,7 @@ int find_path(char grid[ROWS][COLS]) {
         return 0;
     }
 
-    point_t steps[ROWS * COLS] = {0};
-    size_t step = 0;
-
-    return find_path_recursive(end, start, grid, steps, step);
+    return find_path_recursive(end, start, grid);
 }
 
 int main(void) {
