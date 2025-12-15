@@ -29,68 +29,43 @@ int is_valid(const int row, const int col) {
     return 1;
 }
 int is_free(const int row, const int col, char grid[ROWS][COLS]) {
-    if (grid[row][col] == FREE_SYMBOL) {
-        return 1;
-    }
-    return 0;
+    return grid[row][col] == FREE_SYMBOL || grid[row][col] == END_SYMBOL;
 }
 
 int find_path_recursive(point_t next, const point_t end, char grid[ROWS][COLS]) {
-    //end the recursion, once our point <next> is the same as <end>
+
     if (next.row == end.row && next.col == end.col) {
         return 1;
     }
 
-    if (is_valid(next.row+1, next.col)) {
-        if (is_free(next.row+1, next.col, grid)) {
-            next.row += 1;
-            if (find_path_recursive(next, end, grid)) {
-                grid[next.row][next.col] = PATH_SYMBOL;
-                return 1;
-            }
-        } else {
-            next.row -= 1;
-        }
+    if (grid[next.row][next.col] != START_SYMBOL) {
+        grid[next.row][next.col] = '#';
     }
 
-    if (is_valid(next.row, next.col+1)) {
-        next.col += 1;
-        if (is_free(next.row, next.col, grid)) {
-            if (find_path_recursive(next, end, grid)) {
-                grid[next.row][next.col] = PATH_SYMBOL;
+    point_t dirs[4] = {
+        {next.row+1, next.col},
+        {next.row, next.col+1},
+        {next.row-1, next.col},
+        {next.row, next.col-1}
+    };
+
+    for (int i = 0; i < 4; i++) {
+        point_t dir = dirs[i];
+        if (is_valid(dir.row, dir.col) && is_free(dir.row, dir.col, grid)) {
+            if (find_path_recursive(dir, end, grid)) {
+                if (grid[dir.row][dir.col] != START_SYMBOL &&
+                    grid[dir.row][dir.col] != END_SYMBOL) {
+                    grid[dir.row][dir.col] = PATH_SYMBOL;
+                }
                 return 1;
             }
-        } else {
-            next.col -= 1;
         }
     }
-
-    if (is_valid(next.row-1, next.col)) {
-        next.row -= 1;
-        if (is_free(next.row, next.col, grid)) {
-            if (find_path_recursive(next, end, grid)) {
-                grid[next.row][next.col] = PATH_SYMBOL;
-                return 1;
-            }
-        } else {
-            next.row += 1;
-        }
-    }
-
-    if (is_valid(next.row, next.col-1)) {
-        next.col -= 1;
-        if (is_free(next.row, next.col, grid)) {
-            if (find_path_recursive(next, end, grid)) {
-                grid[next.row][next.col] = PATH_SYMBOL;
-                return 1;
-            }
-        } else {
-            next.col += 1;
-        }
+    if (grid[next.row][next.col] != START_SYMBOL) {
+        grid[next.row][next.col] = FREE_SYMBOL;
     }
     return 0;
 }
-
 
 int find_path(char grid[ROWS][COLS]) {
     point_t start = {5,5};
