@@ -9,4 +9,9 @@ my_union2: int32_t || double || float    =  4 || 8 || 4 -> 4 Bytes
 my_union3: int32_t || int64_t + int16_t  =  8 || 2      -> 2 Bytes
 
 3.
-node1->
+node1->value
+(*node1).value
+
+(*(node3->left)).value
+
+*ptr = &node1->value
