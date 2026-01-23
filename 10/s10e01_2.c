@@ -3,22 +3,66 @@
 
 #define SEGMENTS 7
 
-#define ZERO {1, 1, 1, 0, 1, 1, 1}
-#define ONE {0, 0, 1, 0, 0, 1, 0}
-#define TWO {1, 0, 1, 1, 1, 0, 1}
+            //{a, b, c, d, e, f, g}
+#define ZERO  {1, 1, 1, 0, 1, 1, 1}
+#define ONE   {0, 0, 1, 0, 0, 1, 0}
+#define TWO   {1, 0, 1, 1, 1, 0, 1}
 #define THREE {1, 0, 1, 1, 0, 1, 1}
-#define FOUR {0, 1, 1, 1, 0, 1, 0}
-#define FIVE {1, 1, 0, 1, 0, 1, 1}
-#define SIX {1, 1, 0, 1, 1, 1, 1}
+#define FOUR  {0, 1, 1, 1, 0, 1, 0}
+#define FIVE  {1, 1, 0, 1, 0, 1, 1}
+#define SIX   {1, 1, 0, 1, 1, 1, 1}
 #define SEVEN {1, 0, 1, 0, 0, 1, 0}
 #define EIGHT {1, 1, 1, 1, 1, 1, 1}
-#define NINE {1, 1, 1, 1, 0, 1, 1}
+#define NINE  {1, 1, 1, 1, 0, 1, 1}
 
 _Bool DIGITS[][SEGMENTS] = {ZERO, ONE, TWO, THREE, FOUR, FIVE, SIX, SEVEN, EIGHT, NINE};
 
+//Declarations of which functions will exist later
 unsigned short *get_digits_reverse(unsigned long number, size_t *len);
 _Bool digit_invisible_by(_Bool *digit_a, _Bool *digit_b);
 _Bool invisible_by(unsigned long a, unsigned long b);
+
+unsigned short *get_digits_reverse(unsigned long number, size_t *len) {
+        if (number == 0) {
+            unsigned short *digits = malloc(sizeof(unsigned short));
+                if (!digits) return NULL;   // Speicherfehler
+                    digits[0] = 0;
+                    *len = 1;
+                    return digits;
+                }
+            //Count the digits of our number
+            unsigned long temp = number;
+            size_t count = 0;
+            while (temp > 0) {
+                temp /= 10;
+                count++;
+            }
+
+            unsigned short *digits = malloc(count * sizeof(unsigned short));
+            if (!digits) return NULL;
+
+            for (size_t i = 0; i < count; i++) {
+                digits[i] = number % 10;
+                number /= 10;
+            }
+
+            *len = count;
+            return digits;
+}
+
+_Bool digit_invisible_by(_Bool *digit_a, _Bool *digit_b) {
+    //--We get handed two arrays-- if the first one is 1 in all the places b is as well, our number is invisible
+    short array_a = DIGITS[*digit_a];
+    short array_b = DIGITS[*digit_b];
+
+    for (size_t i; i < SEGMENTS; i++) {
+        if ((array_a[i] ^ array_b[i])) {
+            if (array_a[i] == 1) return 0;
+        }
+    }
+    //They fully cover each other.
+    return 1;
+}
 
 void print_digit_line(_Bool digit[], size_t line) {
     switch (line) {
@@ -71,72 +115,6 @@ void test_invisible_by(unsigned long a, unsigned long b) {
     print_number(b);
 }
 
-unsigned short *get_digits_reverse(unsigned long number, size_t *len) {
-    size_t count = 0;
-    unsigned long tmp = number;
-
-    /* count digits */
-    while (tmp > 0) {
-        count++;
-        tmp /= 10;
-    }
-
-    *len = count;
-
-    unsigned short *digits = malloc(count * sizeof(unsigned short));
-    if (digits == NULL) {
-        *len = 0;
-        return NULL;
-    }
-
-    /* fill reversed digits */
-    for (size_t i = 0; i < count; i++) {
-        digits[i] = number % 10;
-        number /= 10;
-    }
-
-    return digits;
-}
-
-_Bool digit_invisible_by(_Bool *digit_a, _Bool *digit_b) {
-    for (size_t i = 0; i < SEGMENTS; i++) {
-        if (digit_a[i] && !digit_b[i]) {
-            return 0;
-        }
-    }
-    return 1;
-}
-
-_Bool invisible_by(unsigned long a, unsigned long b) {
-    size_t len_a, len_b;
-
-    unsigned short *digits_a = get_digits_reverse(a, &len_a);
-    unsigned short *digits_b = get_digits_reverse(b, &len_b);
-
-    if (digits_a == NULL || digits_b == NULL) {
-        free(digits_a);
-        free(digits_b);
-        return 0;
-    }
-
-    if (len_a != len_b) {
-        free(digits_a);
-        free(digits_b);
-        return 0;
-    }
-
-    for (size_t i = 0; i < len_a; i++) {
-        if (!digit_invisible_by(DIGITS[digits_a[i]], DIGITS[digits_b[i]])) {
-            free(digits_a);
-            free(digits_b);
-            return 0;
-        }
-    }
-
-    free(digits_a);
-    free(digits_b);
-    return 1;
-}
 
 int main(void) {
     test_invisible_by(4, 9);
@@ -144,7 +122,6 @@ int main(void) {
     test_invisible_by(123, 761);
     test_invisible_by(123, 169);
     test_invisible_by(123456789, 888888888);
-
-
+    
     return EXIT_SUCCESS;
 }
